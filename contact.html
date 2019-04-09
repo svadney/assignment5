@@ -3,14 +3,14 @@
 
 <head>
     <a href="index.html">Home Page</a>
-        <div>
-            <a href="https://blademaster.com/web/en/" target="_blank">Order Some Parts</a>
-            <a href="#">Contact</a>
-            <div />
+    <div>
+        <a href="https://blademaster.com/web/en/" target="_blank">Order Some Parts</a>
+        <a href="#">Contact</a>
+        <div />
 
-    <meta charset="utf-8">
-    <title>My Title</title>
-    <link rel="stylesheet" type="text/css" href="css/styles.css">
+        <meta charset="utf-8">
+        <title>My Title</title>
+        <link rel="stylesheet" type="text/css" href="css/styles.css">
 </head>
 
 <body>
@@ -36,22 +36,33 @@
         </p>
         <p>
             <label for="email">E-mail: </label>
-            <input type="text" name="email" id="email">        </p>
+            <input type="text" name="email" id="email"> </p>
 
- <p>
-                <label for="how-you-heard">How did you hear about us?</label>
-                <select name="how-you-heard" id="how-you-heard" multiple="true">
-                    <option value="email">Email</option>
-                    <option value="ad">Advertisement</option>
-                    <option value="friend">Friend</option>
-                    <option value="colleague">Colleague</option>
-                    <option value="web">Website</option>
-                    <option value="search">Google Search</option>
-                </select>
-            </p>
+        <p>
+            <label for="how-you-heard">How did you hear about us?</label>
+            <select name="how-you-heard" id="how-you-heard">
+                <option value="email">Email</option>
+                <option value="ad">Advertisement</option>
+                <option value="friend">Friend</option>
+                <option value="colleague">Colleague</option>
+                <option value="web">Website</option>
+                <option value="search">Google Search</option>
+            </select>
+        </p>
 
+        <div class="radio-buttons">
+            <label for="join-newsletter">Would you like to join our newsletter?</label>
+            <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+            <input type="radio" name="join-newsletter" value="No">No
+        </div>
+        <p>
+            <label for="comments">Comments:</label>
+            <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+        </p>
 
     </form>
 
 
-</main></html>
+</main>
+
+</html>
