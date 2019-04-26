@@ -10,7 +10,7 @@
 </head>
 
 <body>
-      <ul>
+    <ul>
 
 
         <li><a href="https://blademaster.com/web/en/" target="_blank">Order Some Parts</a></li>
@@ -21,60 +21,64 @@
 
 
     </ul>
-    
+
+
+    <header>
+        <h1>Feeling dull?</h1>
+        <h2>Reachout and we will have a specialist get back to you!</h2>
+        <p>Please refrain from contacting after a Sabres loss</p>
+
+    </header>
+
+
+
+
+    <main>
+
+        <form action="submit.html" target="_blank">
+            <p>Please fill out some information</p>
+            <p>
+                <label for="firstname">First Name: </label>
+                <input type="text" name="firstname" id="firstname">
+            </p>
+            <p>
+                <label for="lastname">Last Name: </label>
+                <input type="text" name="lastname" id="lastname">
+            </p>
+            <p>
+                <label for="email">E-mail: </label>
+                <input type="text" name="email" id="email"> </p>
+
+            <p>
+                <label for="how-you-heard">How did you hear about us?</label>
+                <select name="how-you-heard" id="how-you-heard">
+                    <option value="email">Email</option>
+                    <option value="ad">Advertisement</option>
+                    <option value="friend">Friend</option>
+                    <option value="colleague">Colleague</option>
+                    <option value="web">Website</option>
+                    <option value="search">Google Search</option>
+                </select>
+            </p>
+
+            <div class="radio-buttons">
+                <label>Would you like to join our newsletter?</label>
+                <input type="radio" name="join-newsletter" value="Yes" checked>Yes
+                <input type="radio" name="join-newsletter" value="No">No
+                <input type="radio" name="join-newsletter" value="YES IN CAPS"> YES IN CAPS
+            </div>
+            <p>
+                <label for="comments">Comments:</label>
+                <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
+            </p>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+
+
+        </form>
+
+
+    </main>
 </body>
-<header>
-    <h1>Feeling dull?</h1>
-    <h2>Reachout and we will have a specialist get back to you!</h2>
-    <p>Please refrain from contacting after a Sabres loss</p>
-  
-</header>
 
-
-
-
-<main>
-
-    <form action="submit.html" target="_blank">
-        <p>Please fill out some information</p>
-        <p>
-            <label for="firstname">First Name: </label>
-            <input type="text" name="firstname" id="firstname">
-        </p>
-        <p>
-            <label for="lastname">Last Name: </label>
-            <input type="text" name="lastname" id="lastname">
-        </p>
-        <p>
-            <label for="email">E-mail: </label>
-            <input type="text" name="email" id="email"> </p>
-
-        <p>
-            <label for="how-you-heard">How did you hear about us?</label>
-            <select name="how-you-heard" id="how-you-heard">
-                <option value="email">Email</option>
-                <option value="ad">Advertisement</option>
-                <option value="friend">Friend</option>
-                <option value="colleague">Colleague</option>
-                <option value="web">Website</option>
-                <option value="search">Google Search</option>
-            </select>
-        </p>
-
-        <div class="radio-buttons">
-            <label for="join-newsletter">Would you like to join our newsletter?</label>
-            <input type="radio" name="join-newsletter" value="Yes" checked>Yes
-            <input type="radio" name="join-newsletter" value="No">No
-        </div>
-        <p>
-            <label for="comments">Comments:</label>
-            <textarea name="comments" id="comments" rows="4" cols="40"></textarea>
-        </p>
-        <input type="submit" value="submit">
-        <input type="reset" value="reset">
-
-
-    </form>
-
-
-</main></html>
+</html>
